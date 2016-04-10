@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Fox3D - A Melhor Impressora 3D do Brasil</title>
+		<link rel="stylesheet" href="_css/estilo.css" />
+		<link rel="stylesheet" href="_css/media.css">
+		<script src="_javascript/funcoes.js"></script>
+	</head>
+	<body>
+	<div id="interface">
+		<header id="cabecalho">
+			<hgroup>
+				<h1>Fox3D</h1>
+				<h2>Imprimindo Sonhos</h2>
+			</hgroup>
+			<img id="icone" src="_imagens/multimidia.png">
+			<nav id="menu">
+				<h1>Menu Principal</h1>
+				<ul type="square">
+					<li onmouseover="mudarFoto('home')" onmouseout="mudarFoto('multimidia')"><a href="index.html">Home</a></li>
+					<li onmouseover="mudarFoto('especificacoes')" onmouseout="mudarFoto('multimidia')"><a href="specs.html">Especificações</a></li>
+					<li onmouseover="mudarFoto('fotos')" onmouseout="mudarFoto('multimidia')"><a href="fotos.html">Fotos</a></li>
+					<li onmouseover="mudarFoto('multimidia')" onmouseout="mudarFoto('multimidia')"><a href="multimidia.html">Multimídia</a></li>
+					<li onmouseover="mudarFoto('contato')" onmouseout="mudarFoto('multimidia')"><a href="fale-conosco.html">Fale conosco</a></li>
+				</ul>	
+			</nav>
+		</header>
+		<section id="corpo-full">
+			<article id="noticia-principal">
+				<header id="cabecalho-artigo">
+					<h3>Fox3D &nbsp > &nbsp Multimídia</h3>
+					<h1>Sons e Vídeos</h1>
+					<h2>por Alexandre Vieira</h2>
+					<h3>Atualizado em 01/Março/2016</h3>
+				</header>
+				<div id="tv-radio">
+					<audio id="musica" controls="controls">
+						<source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg" />
+						Desculpe, mas não foi possível carregar o áudio.
+					</audio>
+
+					<video id="filme" controls="controls" poster="_imagens/video-min03.jpg">
+						<source src="_media/impressao-3d-medicina.mp4" type="video/mp4"/>
+						Desculpe, mas não foi possível carregar o vídeo.
+					</video>
+				</div>
+			</article>
+		</section>
+		<footer id="rodape">
+			<p>
+				Copyright &copy; 2016 - by Alexandre Vieira <br>
+				<a href="http://pt-br.facebook.com/Faculdadeevolucao">Facebook</a> | <a href="http://twitter.com/facevolucao">Twitter</a>
+			</p>
+		</footer>
+	</div>
+	</body>
+</html>
