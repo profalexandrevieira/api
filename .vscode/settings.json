@@ -1,0 +1,3 @@
+// Place your settings in this file to overwrite the default settings
+{ "key": "ctrl+shift+down",   "command": "editor.action.copyLinesDownAction"},
+{ "key": "ctrl+shift+up",   "command": "editor.action.copyLinesUpAction"}
